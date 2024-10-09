@@ -36,7 +36,7 @@ public class FanCodeUsersTest {
            
             double completedPercentage = (double) completedTasks / totalTasks * 100;
             
-          //  System.out.println("User " + user.getName() + " has greater than 50% tasks completed.");
+           System.out.println("User " + user.getName() + " has greater than 50% tasks completed.");
             
             Assert.assertTrue(completedPercentage > 50, "User " + user.getName() + " has less than 50% tasks completed.");
         }
